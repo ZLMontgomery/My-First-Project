@@ -1,0 +1,221 @@
+*{
+  margin: 0; 
+  padding: 0; 
+  font-family: sans-serif; 
+  
+}
+
+.banner {
+  width: 100%; 
+  height: 100vh; 
+  background-image: url(./Images/Made\ Men\ Grooming\ black\ background.png); 
+  background-size: cover; 
+  background-position: center; 
+}
+
+.navbar {
+  width: 85%;
+  margin: auto; 
+  padding: 35px 0px; 
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.logo {
+  width: 120px; 
+  cursor: pointer; 
+}
+
+.navbar ul li { 
+  list-style: none;
+  display: inline-block; 
+  margin: 0 20px;
+  color: #e4c95e; 
+  position: relative;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navbar ul li::after {
+  content: '';
+  height: 3px; 
+  width: 0; 
+  background: #925e02;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s; 
+}
+
+.navbar ul li:hover::after {
+  width: 100%; 
+} 
+
+.about-us-container {
+  background-image: url(./Images/NasFade.JPG);
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  background-color: black;
+  
+}
+
+p {
+  color: #e4c95e;
+  font-size: 30px;
+  padding-top: 25%;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold; 
+  letter-spacing: 2px; 
+  color:#e4c95e; 
+  padding-bottom: 10px;
+  padding: 10px;
+}
+
+h1::after 
+{
+  content: '';
+  background: #925e02;
+  display: block;
+  height: 3px;
+  width: 150px;
+  margin: 10px auto;
+}
+
+.meet-the-squad {
+  background-color: black;
+  padding-top: 25px;
+}
+
+ h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #e4c95e;
+}
+
+h3 {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #e4c95e;
+}
+
+ h4 {
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #e4c95e;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.profile {
+  text-align: center
+}
+
+.barber-img {
+  width: 350px;
+  height: auto;
+}
+
+.quote {
+  background-color: black;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+td,th {
+    border: 1px solid #925e02;
+    padding: 10px;
+    
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: black;
+}
+
+th[scope="col"] {
+  background-color: black;
+  color: #e4c95e;
+}
+
+th[scope="row"] {
+  background-color: black;
+}
+
+table {
+  border: 2px solid #925e02;
+  letter-spacing: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  background-color: black;
+
+}
+
+.service-section {
+  background-color: black;
+  color: #e4c95e;
+  padding-bottom: 50px;
+}
+
+/* Footer Styling */ 
+
+.footer {
+  padding-top: 75px;
+  padding-left: 150px;
+  padding-right: 150px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.col-1 a {
+  color: #e4c95e;
+  display: block;
+  
+}
+
+.col-2 {
+  flex-grow: 2;
+}
+
+.footer div h3 {
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.fa-instagram {
+  color: #e4c95e;
+}
+
+.fa-twitter {
+  color: #e4c95e;
+}
+
+.fa-facebook {
+  color: #e4c95e;
+}
